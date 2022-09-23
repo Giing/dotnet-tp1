@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WSConvertisseur</name>
+    </assembly>
+    <members>
+        <member name="T:WSConvertisseur.Controllers.DevisesController">
+            <summary>
+            Controller responsible for devises
+            </summary>
+        </member>
+        <member name="P:WSConvertisseur.Controllers.DevisesController.Devises">
+            <summary>
+            List of devices
+            </summary>
+        </member>
+        <member name="M:WSConvertisseur.Controllers.DevisesController.GetAll">
+            <summary>
+            Get all devises
+            </summary>
+            <returns>Http Response</returns>
+            <response code="200">All the time</response>
+        </member>
+        <member name="M:WSConvertisseur.Controllers.DevisesController.GetById(System.Int32)">
+            <summary>
+            Get a devise by id
+            </summary>
+            <param name="id">The id of the devise</param>
+            <returns>Http response</returns>
+            <response code="200">When the devise id is found</response>
+            <response code="404">When the devise id is not found</response>
+        </member>
+        <member name="M:WSConvertisseur.Controllers.DevisesController.Post(WSConvertisseur.Models.Devise)">
+            <summary>
+            Add a devise
+            </summary>
+            <param name="devise">The devise</param>
+            <returns>Http response</returns>
+            <response code="201">When the devise has been added</response>
+            <response code="400">When the devise has not a valid state</response>
+        </member>
+        <member name="M:WSConvertisseur.Controllers.DevisesController.Put(System.Int32,WSConvertisseur.Models.Devise)">
+            <summary>
+            Update a devise
+            </summary>
+            <param name="id">Id of the devise</param>
+            <param name="devise">The devise</param>
+            <returns>Http response</returns>
+            <response code="204">When the devise has been updated</response>
+            <response code="400">When the devise has not a valid state</response>
+            <response code="404">When the devise does not exist</response>
+        </member>
+        <member name="M:WSConvertisseur.Controllers.DevisesController.Delete(System.Int32)">
+            <summary>
+            Delete a devise
+            </summary>
+            <param name="id">Id of the devise</param>
+            <returns>Http response</returns>
+            <response code="200">When the devise has been deleted</response>
+            <response code="404">When the devise does not exist</response>
+        </member>
+        <member name="M:WSConvertisseur.Controllers.DevisesController.#ctor">
+            <summary>
+            Constructor of the controller
+            </summary>
+        </member>
+        <member name="P:WSConvertisseur.Models.Devise.Id">
+            <summary>
+            Identifier of the devise
+            </summary>
+        </member>
+        <member name="P:WSConvertisseur.Models.Devise.Nom">
+            <summary>
+            Name of the devise
+            </summary>
+        </member>
+        <member name="P:WSConvertisseur.Models.Devise.Taux">
+            <summary>
+            Taux of the devise
+            </summary>
+        </member>
+        <member name="M:WSConvertisseur.Models.Devise.#ctor">
+            <summary>
+            Base constructor of the devise
+            </summary>
+        </member>
+        <member name="M:WSConvertisseur.Models.Devise.#ctor(System.Int32,System.String,System.Double)">
+            <summary>
+            Augmented constructor of the devise
+            </summary>
+        </member>
+    </members>
+</doc>

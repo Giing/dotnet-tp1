@@ -1,0 +1,1 @@
+C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\ClientConvetisseurV2.csproj;x64

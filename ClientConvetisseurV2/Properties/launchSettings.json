@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ClientConvetisseurV2 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ClientConvetisseurV2 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
