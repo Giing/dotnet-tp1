@@ -53,5 +53,25 @@ namespace WSConvertisseur.Models
 			this.Nom = nom;	
 			this.Taux = taux;
 		}
+
+        // override object.Equals
+        public override bool Equals(object obj)
+        {
+
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+            Devise d = (Devise)obj;
+            return (Id == d.Id) && (Nom == d.Nom) && (Taux == d.Taux);    
+        }
+
+        // override object.GetHashCode
+        public override int GetHashCode()
+        {
+            // TODO: write your implementation of GetHashCode() here
+            throw new NotImplementedException();
+            return base.GetHashCode();
+        }
 	}
 }
