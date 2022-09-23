@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
@@ -29,6 +30,11 @@ namespace ClientConvetisseurV2.Views
             this.InitializeComponent();
             ConvertisseurDeviseViewModel convertisseurDeviseViewModel = new ConvertisseurDeviseViewModel();
             DataContext = ((App)Application.Current).ConvertisseurDeviseVM;
+        }
+
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ConvertisseurEuroPage));
         }
     }
 }

@@ -9,14 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
-        <TextBlock 
+        <TextBlock x:ConnectionId='2' 
             x:Name="montant_text"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             Text="Montant en euros"
             MinWidth="100"
             Margin="0 20 0 0">
         </TextBlock>
-        <TextBox
+        <TextBox x:ConnectionId='3'
             x:Name="montant_box"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="montant_text"
@@ -25,13 +25,13 @@
             Text="{Binding MontantSource, Mode=TwoWay}">
             
         </TextBox>
-        <TextBlock
+        <TextBlock x:ConnectionId='4'
             x:Name="devise_text"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="montant_box"
             Text="Devise">
         </TextBlock>
-        <ComboBox
+        <ComboBox x:ConnectionId='5'
             x:Name="devise_combobox"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="devise_text"
@@ -42,7 +42,7 @@
             DisplayMemberPath="Nom"
             SelectedItem="{Binding SelectedDevise, Mode=TwoWay}">
         </ComboBox>
-        <Button
+        <Button x:ConnectionId='6'
             x:Name="convertir_button"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="devise_combobox"
@@ -51,13 +51,13 @@
             Width="200"
             Command="{Binding BtnSetConversion}">
         </Button>
-        <TextBlock 
+        <TextBlock x:ConnectionId='7' 
             x:Name="montant_devise_text"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="convertir_button"
             Text="Montant en devise">
         </TextBlock>
-        <TextBox
+        <TextBox x:ConnectionId='8'
             x:Name="montant_devise_box"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="montant_devise_text"
@@ -67,14 +67,15 @@
             Text="{Binding MontantTarget, Mode=OneWay}">
         </TextBox>
         
-        <HyperlinkButton
+        <HyperlinkButton x:ConnectionId='9'
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="montant_devise_box"
             Content="Convertisseur devise"
             Margin="10 30 10 10"
             Width="200"
-            Click="HyperlinkButton_Click_2">
+                                           >
             
         </HyperlinkButton>
     </RelativePanel>
 </Page>
+

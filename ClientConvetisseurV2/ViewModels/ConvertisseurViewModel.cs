@@ -16,6 +16,7 @@ namespace ClientConvetisseurV2.ViewModels
     {
         private ObservableCollection<Devise> devises;
         public IRelayCommand BtnSetConversion { get; }
+        public IRelayCommand BtnChangePage { get; }
         private string montantSource;
         private Devise selectedDevise;
         private string montantTarget;

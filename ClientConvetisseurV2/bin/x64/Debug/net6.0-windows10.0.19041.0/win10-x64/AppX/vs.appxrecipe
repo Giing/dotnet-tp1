@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-09-23T09:00:19.542</Modified>
+      <Modified>2022-09-23T14:35:22.462</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-09-23T09:00:19.262</Modified>
+      <Modified>2022-09-23T14:35:22.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ClientConvetisseurV2.runtimeconfig.json">
       <PackagePath>ClientConvetisseurV2.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ClientConvetisseurV2.dll">
       <PackagePath>ClientConvetisseurV2.dll</PackagePath>
-      <Modified>2022-09-23T09:00:19.026</Modified>
+      <Modified>2022-09-23T14:35:22.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ClientConvetisseurV2.exe</PackagePath>
-      <Modified>2022-09-23T09:00:19.041</Modified>
+      <Modified>2022-09-23T14:35:22.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lazar\source\repos\WSConvertisseur\ClientConvetisseurV2\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ClientConvetisseurV2.deps.json">
       <PackagePath>ClientConvetisseurV2.deps.json</PackagePath>

@@ -66,5 +66,15 @@
             Width="200"
             Text="{Binding MontantTarget, Mode=OneWay}">
         </TextBox>
+
+        <HyperlinkButton
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="montant_devise_box"
+            Content="Convertisseur euro"
+            Margin="10 30 10 10"
+            Width="200"
+            Click="HyperlinkButton_Click">
+            
+        </HyperlinkButton>
     </RelativePanel>
 </Page>

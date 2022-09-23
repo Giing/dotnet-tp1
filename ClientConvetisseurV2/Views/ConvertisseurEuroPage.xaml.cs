@@ -30,5 +30,10 @@ namespace ClientConvetisseurV2.Views
             ConvertisseurEuroViewModel convertisseurEuroViewModel = new ConvertisseurEuroViewModel();
             DataContext = ((App)Application.Current).ConvertisseurEuroVM;
         }
+
+        private void HyperlinkButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ConvertisseurDevisePage));
+        }
     }
 }
